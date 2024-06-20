@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "FAMILY_NAME";
+  src: url(FONT_FILE_NAME.woff2) format("woff2");
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+.regular {
+  font-weight: 400; /* Regular 400 */
+  font-size: 20px;
+}
+
+.extralight {
+  font-weight: 200; /* ExtraLight 200 */
+  font-size: 20px;
+}
+
+#maintitle {
+  text-align: center;
+  margin: 2vw;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 20vh;
+  width: 45vw;
+  margin: 1vw;
+  padding-top: 1vh;
+}
+
+.small-card {
+  height: 25vh;
+  width: 35vw;
+  margin: 1vw;
+  padding-top: 1vh;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.color {
+  height: 85px;
+  width: 85px;
+  border-radius: 4px;
+  margin-left: 16px;
+}
+
+.darkgrey {
+  background-color: #212529;
+}
+
+.grey {
+  background-color: #ced4da;
+}
+
+.darkblue {
+  background-color: #03045e;
+}
+
+.blue {
+  background-color: #023e8a;
+}
+
+.colored-text {
+  color: #023e8a;
+  font-weight: 700;
+}
+
+.lightblue {
+  background-color: #caf0f8;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 42px;
+  cursor: pointer;
+  background-color: #03045e;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #023e8a;
+}
+
+table {
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card-element {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 4px;
+  border: 1px solid #dfdfdf;
+  padding: 16px;
+}
+
+.right-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://images.unsplash.com/photo-1718110190589-a97fb4143663?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+.margin-top {
+  margin-top: 16px;
+}
