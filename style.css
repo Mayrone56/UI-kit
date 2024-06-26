@@ -10,12 +10,12 @@ body {
 }
 
 .regular {
-  font-weight: 400; /* Regular 400 */
+  font-weight: 400;
   font-size: 20px;
 }
 
 .extralight {
-  font-weight: 200; /* ExtraLight 200 */
+  font-weight: 200;
   font-size: 20px;
 }
 
